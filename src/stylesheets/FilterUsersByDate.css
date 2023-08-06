@@ -1,0 +1,27 @@
+.FilterUsersByDate .content {
+    position: absolute;
+    top: 30%; 
+    left: 0; right: 0;
+    z-index: 11;
+    margin: 0 auto;
+    transform: translateY(-80%) translateX(-50%);
+    width: 550px;
+    padding: 20px;
+    border-radius: 6px;
+    text-align: center;
+    background: var(--white);
+}
+
+.FilterUsersByDate .content input[type=date] {
+    width: 70%;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    font-size: 1rem;
+    border: 2px solid var(--violet);
+    border-radius: 6px;
+}
+
+.FilterUsersByDate .content input[type=submit] {
+    margin-left: 10px;
+    padding: 7.5px 30px;
+}

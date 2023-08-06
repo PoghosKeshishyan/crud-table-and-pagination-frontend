@@ -1,0 +1,81 @@
+h1 {
+    font-size: 30px;
+    color: var(--blue);
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.btn {
+    padding: 5px 20px;
+    color: var(--white);
+    font-size: .9rem;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.primary {
+    background: var(--blue);
+}
+
+.danger {
+    background: var(--red);
+}
+
+.default {
+    background: var(--violet);
+}
+
+.primary:hover {
+    background: var(--lightBlue);
+}
+
+.danger:hover {
+    background: var(--lightRed);
+}
+
+.default:hover {
+    background: var(--lightViolet);
+}
+
+.darkBg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 10;
+    background: var(--darkGray);
+}
+
+.fa-xmark {
+    display: block;
+    text-align: right;
+    font-size: 1.4rem;
+    color: var(--red);
+    cursor: pointer;
+}
+
+.heading {
+    text-align: center;
+    color: var(--violet);
+    padding-bottom: 20px;
+}
+
+.usersAreEmpty {
+    margin: 109px 0;
+    padding: 60px 0;
+    text-align: center;
+    border-radius: 6px;
+}
+
+.usersAreEmpty i {
+    margin-bottom: 50px;
+    font-size: 5rem;
+    color: var(--red);
+}
+
+.usersAreEmpty h3 {
+    font-size: 1.5rem;
+    color: var(--blue);
+}

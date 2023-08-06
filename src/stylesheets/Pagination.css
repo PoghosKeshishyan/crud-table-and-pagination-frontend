@@ -1,0 +1,51 @@
+.Pagination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .3rem;
+    margin: 30px 0;
+    font-weight: 300;
+}
+
+.Pagination button {
+    width: 30px;
+    height: 30px;
+    font-size: 1rem;
+    background: none;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.Pagination ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .3rem;
+    font-size: 1.1rem;
+    list-style: none;
+}
+
+.Pagination ul li {
+    width: 36px;
+    height: 29px;
+    text-align: center;
+    font-weight: 400;
+    font-family: 'Segoe UI';
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.Pagination ul li.active {
+    color: var(--blue);
+    font-weight: 500;
+    border: 1px solid var(--blue);
+}
+
+.Pagination ul li.active:hover {
+    background: var(--white);
+}
+
+.Pagination button:hover, .Pagination ul li:hover {
+    background: var(--lightGray);
+}

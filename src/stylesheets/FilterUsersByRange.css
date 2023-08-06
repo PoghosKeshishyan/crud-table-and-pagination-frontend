@@ -1,0 +1,33 @@
+.FilterUsersByRange .content {
+    position: absolute;
+    top: 30%; 
+    left: 0; right: 0;
+    z-index: 11;
+    margin: 0 auto;
+    width: 550px;
+    padding: 20px;
+    border-radius: 6px;
+    text-align: center;
+    background: var(--white);
+}
+
+.FilterUsersByRange .content .box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 25px;
+    color: var(--violet);
+}
+
+.FilterUsersByRange .content input[type=date] {
+    padding: 5px 10px;
+    font-size: 1rem;
+    border: 2px solid var(--violet);
+    border-radius: 6px;
+}
+
+.FilterUsersByRange .content input[type=submit] {
+    margin-bottom: 5px;
+    padding: 5px 40px;
+}
